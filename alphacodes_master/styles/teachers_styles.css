@@ -281,13 +281,14 @@ section
 	transform: translateX(-50%);
 	width: 1318px;
 	height: 104px;
-	background: #000000;
+	background: #000000ba;
 	z-index: 10;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	border-radius: 25px;
 }
 .header.scrolled
 {	
@@ -344,6 +345,7 @@ section
 	display: inline-block;
 	margin-left: auto;
 	padding-right: 93px;
+
 }
 .main_nav
 {
@@ -370,6 +372,7 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	
 }
 .main_nav_item a:hover
 {

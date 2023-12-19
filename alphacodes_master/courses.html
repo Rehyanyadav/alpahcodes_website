@@ -22,10 +22,34 @@ background: -moz-linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%
 background: -webkit-linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#295270", endColorstr="#524175", GradientType=1 );
+	
+		
 	}
 	
 
 </style>
+
+<script>
+
+	document.onkeydown = (e) => {
+	  if (e.key == 123) {
+		  e.preventDefault();
+	  }
+	  if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+		  e.preventDefault();
+	  }
+	  if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+		  e.preventDefault();
+	  }
+	  if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+		  e.preventDefault();
+	  }
+	  if (e.ctrlKey && e.key == 'U') {
+		  e.preventDefault();
+	  }
+  };
+  
+   </script>
 <body>
 	
 
@@ -116,6 +140,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#295270", en
 		</div>
 	</div>
 
+
 	<!-- Popular -->
 
 	<div class="popular page_section">
@@ -135,7 +160,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#295270", en
 					<div class="card">
 						<img class="card-img-top" src="images/course_01.jpg" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="http://topics.000.pe/">A complete guide to HTML</a></div>
+							<div class="card-title"><a href="./chapter/html5.html">A complete guide to HTML</a></div>
 							<div class="card-text">Basic to advance tags</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
@@ -151,7 +176,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#295270", en
 					<div class="card">
 						<img class="card-img-top" src="images/course_02.jpg" alt="https://unsplash.com/@cikstefan">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="http://topics.000.pe/">Beginners guide to Python</a></div>
+							<div class="card-title"><a href="./chapter/python.html">Beginners guide to Python</a></div>
 							<div class="card-text">basic to advance</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">
@@ -167,7 +192,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#295270", en
 					<div class="card">
 						<img class="card-img-top" src="images/course_03.png" alt="https://unsplash.com/@dsmacinnes">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="http://topics.000.pe/">Java for Beginners</a></div>
+							<div class="card-title"><a href="./chapter/java.html">Java for Beginners</a></div>
 							<div class="card-text">basic to advance</div>
 						</div>
 						<div class="price_box d-flex flex-row align-items-center">

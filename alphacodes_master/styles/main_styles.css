@@ -867,7 +867,7 @@ section {
   margin-top: 7px;
 }
 .course_author_name span {
-  color: #a5a5a5;
+  color: #000000;
 }
 .course_price {
   width: 67px;
@@ -1022,7 +1022,7 @@ ANNOUNCEMENT BOX
   text-align: center;
   margin: 100px;
   color:#00aaff;
-  font-size:auto;
+  font-size:5px;
   box-shadow: rgb(174, 0, 255)0 0 90px 33px;
   border-radius: 25px;
 

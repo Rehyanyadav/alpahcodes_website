@@ -25,7 +25,6 @@ COLOR PALETTE
 8. Buttons
 9. Popular
 10. Footer
-	10.1 Newsletter
 	10.2 Footer Content
 	10.3 Footer Copyright
 
@@ -796,7 +795,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #a5a5a5;
+	color: #000000;
 	margin-top: -12px;
 }
 .price_box
@@ -824,7 +823,7 @@ section
 }
 .course_author_name span
 {
-	color: #a5a5a5;
+	color: #000000;
 }
 .course_price
 {
